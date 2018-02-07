@@ -1,0 +1,148 @@
+.eo-head{
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 14%;
+}
+
+#eof-eomg{
+    width: 30%;
+}
+
+.eo-head img{
+    float: left;
+}
+
+.page-share{
+    margin-top: 13px;
+}
+
+#page-title{
+    margin-top: 18px;
+    font-size: 30px;
+    font-family: "DINCondensed";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    float: left;
+    width: 34%;
+    font-weight: bold;
+}
+
+#eo-gallery-main ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+#eo-gallery-main > ul > li{
+    list-style: none;
+    display: inline-block;
+     border-width: 3px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    width: 190px;
+    height: 208px;
+    margin: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+#eo-gallery-main li img{
+    width: 100%;
+    height: 100%;
+}
+
+.eo-contents{
+    padding: 0 5px;
+    width: 65.333333%;
+}
+
+#eo-gallery-backd{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 100;
+}
+
+#eo-light-img{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+    width: 284px;
+    height: 284px;
+    z-index: 101;
+}
+
+#eo-light-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+}
+
+#eo-gallery-btn{
+    position: absolute;
+    top: 0;
+    right: -47px;
+    transition: all 0.3s;
+}
+.sky-ad{
+    padding: 0px !important;
+    width: 10.333333%;
+}
+.article_mode_sr ul li{
+    min-height: 44px;
+}
+
+.social-icon-holder.close{
+    background-color: white;
+    color: #537bbd;
+    font-weight: bold;
+    font-family: 'Tw Cen MT';
+    line-height: 26px;
+    font-size: 24px;
+    opacity: 1 !important;
+}
+
+#eo-gallery-main > ul > li:hover > #eo-gallery-btn{
+    right: 5px;
+}
+
+#eo-gallery-main #eo-gallery-btn{
+    margin-top: 5px;
+}
+
+#page-ctrl{
+    text-decoration: underline;
+    display: table;
+    width: 100%;
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+#page-ctrl > div{
+    float: left;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#page-ctrl > div:nth-child(1){
+    float: left;
+}
+#page-ctrl > div:nth-child(2){
+    float: right;
+}

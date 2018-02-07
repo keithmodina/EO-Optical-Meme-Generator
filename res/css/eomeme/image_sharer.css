@@ -1,0 +1,11 @@
+#promptModal #prevImg{
+    width: 278px;
+    height: 278px;
+}
+
+#promptModal textarea{
+    width: 290px;
+    height: 140px;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+}
